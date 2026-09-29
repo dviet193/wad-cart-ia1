@@ -1,6 +1,7 @@
 # Self-assessment — IA#1
 
-Submitted by: 24120245 — Trần Lê Đức Việt  
+Submitted by: 24120245 — Trần Lê Đức Việt
+Repository: https://github.com/dviet193/wad-cart-ia1
 Total I claim: 100 / 100
 
 | Criterion | Max | I claim | Evidence |
