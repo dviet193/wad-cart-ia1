@@ -22,14 +22,14 @@ Accepted / rejected / modified:
 I wrote by hand: Formulated strict "never" rules (never use `.toFixed()`, zero external dependencies) and made the architectural choice for the zero-dependency gate.
 
 ## 2026-09-30 — Step 2: Write the brief
-Tool: Antigravity IDE (Gemini / Claude Assistant)
+Tool: Antigravity IDE (Gemini)
 Asked for: Formulate a comprehensive implementation brief in `BRIEF.md` covering scope, contract, constraints, business logic, and error handling.
 Produced: A complete 5-section specification brief in `BRIEF.md`.
 Accepted / rejected / modified: Accepted the structured contract, strictly enforcing primitive `number` return type and explicit prohibition of `.toFixed()`.
 I wrote by hand: Reviewed and confirmed file boundary scope (`src/cart.js`, `test/cart.test.js`) and verified the worked example numbers.
 
 ## 2026-09-30 — Step 3: TDD loop and implementation
-Tool: Antigravity IDE (Gemini / Claude Assistant)
+Tool: Antigravity IDE (Gemini)
 Asked for: Expand unit tests in `test/cart.test.js` to cover all edge cases, then implement `cartTotal` in `src/cart.js` with zero dependencies.
 Produced: 10 unit test cases using Node's native test runner (`node:test`), and the implementation in `src/cart.js`.
 Accepted / rejected / modified:
